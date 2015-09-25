@@ -11,6 +11,6 @@ defmodule FactorialTest do
       {6, 720}
     ]
 
-    Enum.each test_values, fn({input, result}) -> assert Factorial.factorial(input) == result end
+    Enum.each test_values, fn {input, result} -> assert Factorial.factorial(input) == result end
   end
 end
